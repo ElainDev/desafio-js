@@ -33,14 +33,16 @@ let ageUser = prompt('Qual é a sua idade?');
 //10.Agora, para validar a idade que capturamos no desafio 09, caso a idade seja maior ou igual que 18, exiba um alerta com a mensagem "Pode tirar a habilitação!".
 if(ageUser >= 18){
     alert('Pode tirar a habilitação!');
+}else{
+    alert('Não pode dirigir')
 }
 
 //11.Pergunte ao usuário qual é o dia da semana. Se a resposta for "Sábado" ou "Domingo", mostre "Bom fim de semana!". Caso contrário, mostre "Boa semana!".
 let dayWeek = prompt('Qual é o dia da semana?');
 
-if(dayWeek == Sábado){
+if(dayWeek == 'Sabado'){
     alert('Bom fim de semana!');
-} else if (dayWeek == Domingo){
+} else if (dayWeek == 'Domingo'){
     alert('Bom fim de semana!');
 } else {
     alert('Boa semana!');
