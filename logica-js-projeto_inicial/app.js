@@ -76,3 +76,34 @@ alert(`Seu saldo na conta é: ${saldoConta}`);
 //15.Peça ao usuário para inserir seu nome usando prompt. Em seguida, mostre um alerta de boas-vindas usando esse nome.
 let nomeUser = prompt('What is your name?');
 alert(`Welcome ${nomeUser}`);
+
+//Crie um contador que comece em 1 e vá até 10 usando um loop while. Mostre cada número.
+let contador = 1;
+
+while (contador <= 10) {
+    alert(contador);
+    contador++;
+}
+
+//Crie um contador que começa em 10 e vá até 0 usando um loop while. Mostre cada número.
+let contador2 = 10;
+
+while (contador2 >= 0) {
+    alert(contador2);
+    contador2--;
+}
+//Crie um programa de contagem regressiva. Peça um número e conte deste número até 0, usando um loop while no console do navegador.
+let contagem = prompt('Digite um número');
+
+while (contagem >= 0) {
+    alert(contagem);
+    contagem--;
+}
+//Crie um programa de contagem progressiva. Peça um número e conte de 0 até esse número, usando um loop while no console do navegador.
+let contagem2 = prompt('Digite um número');
+let contador3 = 0
+
+while (contador3 <= contagem2) {
+    alert(contador3);
+    contador3++;
+}
